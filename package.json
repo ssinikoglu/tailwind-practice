@@ -1,0 +1,27 @@
+{
+  "name": "tailwind-practice",
+  "version": "1.0.0",
+  "description": "Tailwind CSS practice",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "parcel src/index.html",
+    "build-prod": "parcel build src/index.html"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ssinikoglu/tailwind-practice.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ssinikoglu/tailwind-practice/issues"
+  },
+  "homepage": "https://github.com/ssinikoglu/tailwind-practice#readme",
+  "dependencies": {},
+  "devDependencies": {
+    "parcel-bundler": "^1.12.4",
+    "postcss-modules": "^4.0.0"
+  }
+}
