@@ -6,7 +6,7 @@
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "start": "parcel src/index.html",
-    "build-prod": "parcel build src/index.html"
+    "build": "parcel build src/index.html"
   },
   "repository": {
     "type": "git",
@@ -19,9 +19,13 @@
     "url": "https://github.com/ssinikoglu/tailwind-practice/issues"
   },
   "homepage": "https://github.com/ssinikoglu/tailwind-practice#readme",
-  "dependencies": {},
+  "dependencies": {
+    "@tailwindcss/postcss7-compat": "^2.0.2",
+    "autoprefixer": "^9.0.0",
+    "postcss": "^7.0.35",
+    "tailwindcss": "npm:@tailwindcss/postcss7-compat@^2.0.2"
+  },
   "devDependencies": {
-    "parcel-bundler": "^1.12.4",
-    "postcss-modules": "^4.0.0"
+    "parcel-bundler": "^1.12.4"
   }
 }
